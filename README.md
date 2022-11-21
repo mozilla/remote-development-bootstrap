@@ -11,10 +11,10 @@ The current `profiles.db` is EMPTY.
 
 
 ## Basic Usage ##
-The main tool that is used is `add-user.py` that reads an `yaml` file describing the following details of an user:<br />
-    * `name`, user name <br />
-    * `pub_key`, public key for ssh authentication <br />
-    * `vcs`, git or hg
+The main tool that is used is `add-user.py` that reads an `yaml` file describing the following details of an user:
+* `name`, user name
+* `pub_key`, public key for ssh authentication
+* `vcs`, git or hg
 
 ## External Libraries ##
 Python [schroot](https://pypi.org/project/schroot/) was used an imported locally because it needed some modifications to fit our version of Python and needs. All credits go to the respective owner/s of the library.
