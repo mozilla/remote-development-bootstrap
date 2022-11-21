@@ -1,7 +1,6 @@
-# vscode-remote-bootstrap #
+# remote-development-bootstrap #
 
-Script that boot straps a new user on a linux machine, debian compatible in order
-to offer vscode remote development access on a shared machine.<br />
+Script that boot straps a new user on a linux machine, debian compatible, offering Mozilla Firefox build capability alongside VSCode Remote integration.<br />
 This program program is very much in BETA state and is not ready for high adoption.
 
 ## Basic Principles ##
