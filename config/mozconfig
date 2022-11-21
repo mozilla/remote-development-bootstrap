@@ -1,0 +1,8 @@
+ac_add_options --enable-bootstrap
+ac_add_options --enable-debug
+ac_add_options --disable-optimize
+ac_add_options --with-ccache=sccache
+
+mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/obj
+
+mk_add_options AUTOCLOBBER=1
